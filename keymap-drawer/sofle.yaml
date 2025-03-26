@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - {t: B, h: '['}
-  - MUTE
-  - ''
+  - Gui+Sft+S
+  - LEFT WIN
   - {t: N, h: ']'}
   - M
   - ','
