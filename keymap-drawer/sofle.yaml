@@ -30,8 +30,8 @@ layers:
   - S
   - D
   - F
-  - G
-  - H
+  - {t: G, h: HOME}
+  - {t: H, h: END}
   - J
   - K
   - L
@@ -52,14 +52,14 @@ layers:
   - /
   - RSHFT
   - LCTRL
-  - LALT
+  - Ctl+F12
   - LALT
   - lower
   - SPACE
   - RET
   - raise
-  - RCTRL
-  - RALT
+  - TAB
+  - F5
   - RCTRL
   lower:
   - '&studio_unlock'
