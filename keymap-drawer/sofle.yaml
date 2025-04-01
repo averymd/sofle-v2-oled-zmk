@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - '='
+  - BSPC
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - BSPC
+  - LSHFT
   - A
   - S
   - D
@@ -37,7 +37,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - LCTRL
   - Z
   - X
   - C
@@ -51,7 +51,7 @@ layers:
   - .
   - /
   - RSHFT
-  - LCTRL
+  - '='
   - Ctl+F12
   - LALT
   - lower
@@ -60,7 +60,7 @@ layers:
   - raise
   - TAB
   - F5
-  - RCTRL
+  - ESC
   lower:
   - '&studio_unlock'
   - F1
