@@ -59,7 +59,7 @@ layers:
   - RET
   - raise
   - TAB
-  - F5
+  - DEL
   - ESC
   lower:
   - '&studio_unlock'
