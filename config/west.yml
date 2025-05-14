@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/mctechnology17
     - name: whoop-t
       url-base: https://github.com/whoop-t
+    - name: averymd
+      url-base: https://github.com/averymd
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,7 +17,7 @@ manifest:
       remote: whoop-t
       revision: main
     - name: zmk-nice-oled
-      remote: mctechnology17
+      remote: averymd
       revision: main
   self:
     path: config
