@@ -26,15 +26,15 @@ layers:
   - P
   - \
   - LSHFT
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHIFT}
   - {t: G, h: HOME}
   - {t: H, h: END}
-  - J
-  - K
-  - L
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RALT}
+  - {t: L, h: RIGHT WIN}
   - ;
   - ''''
   - LCTRL
