@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
   - ''''
-  - RBKT LBKT
+  - {t: '[', h: ']'}
   - Z
   - X
   - C
