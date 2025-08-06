@@ -26,16 +26,16 @@ layers:
   - P
   - \
   - LSHFT
-  - {t: A, h: LEFT WIN}
+  - {t: A, h: LGUI}
   - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHIFT}
+  - {t: D, h: LSHIFT}
+  - {t: F, h: LCTRL}
   - {t: G, h: HOME}
   - {t: H, h: END}
-  - {t: J, h: RSHIFT}
-  - {t: K, h: RCTRL}
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHIFT}
   - {t: L, h: RALT}
-  - {t: ;, h: RIGHT WIN}
+  - {t: ;, h: LGUI}
   - ''''
   - LCTRL
   - Z
@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - {t: B, h: '['}
-  - LEFT WIN
+  - LGUI
   - Gui+Sft+S
   - {t: N, h: ']'}
   - M
