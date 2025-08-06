@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/whoop-t
     - name: averymd
       url-base: https://github.com/averymd
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,6 +20,9 @@ manifest:
       revision: main
     - name: zmk-nice-oled
       remote: averymd
+      revision: main
+    - name: zmk-helpers
+      remote: urob
       revision: main
   self:
     path: config
