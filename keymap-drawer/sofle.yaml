@@ -33,9 +33,9 @@ layers:
   - {t: G, h: HOME}
   - {t: H, h: END}
   - {t: J, h: RSHIFT}
-  - {t: K, h: RALT}
-  - {t: L, h: RIGHT WIN}
-  - ;
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RIGHT WIN}
   - ''''
   - LCTRL
   - Z
