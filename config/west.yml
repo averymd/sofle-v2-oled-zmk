@@ -13,7 +13,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: a8a392807e1d3908bb53e90d35aae8558e2b96d1
+      revision: main
       import: app/west.yml
     - name: nice-adventure-time
       remote: whoop-t
@@ -23,6 +23,6 @@ manifest:
       revision: main
     - name: zmk-helpers
       remote: urob
-      revision: b1548efd28d2cc64b9506654e6883695c258190f
+      revision: main
   self:
     path: config
