@@ -80,9 +80,9 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &kp EQUAL     &hml LGUI A   &hml LALT S   &hml LSHIFT D &hml LCTRL F  &mt HOME G                                  &mt END H     &hmr RCTRL J  &hmr RSHIFT K &hmr RALT L   &hmr LGUI SEMI &kp SQT
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &mt RBRC LBRC &kp Z         &kp X         &kp C         &kp V         &mt LBKT B    &kp LGUI        &kp LG(LS(S)) &mt RBKT N    &kp M         &kp COMMA     &kp DOT       &kp FSLH      &mt RBKT LBKT
+                &kp LBRC      &kp Z         &kp X         &kp C         &kp V         &mt LBKT B    &kp LGUI        &kp LG(LS(S)) &mt RBKT N    &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RBRC
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                                            &mt RBKT LBKT &kp LC(F12)   &kp LALT      &mo LOWER     &kp SPACE       &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
+                                            &kp LBKT      &kp LC(F12)   &kp RBKT      &mo LOWER     &kp SPACE       &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
             //                            ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
             >;
 
