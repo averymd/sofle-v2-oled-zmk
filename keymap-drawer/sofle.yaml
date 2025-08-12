@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - '='
+  - BSPC
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - BSPC
+  - '='
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: LGUI}
   - ''''
-  - {t: '}', h: '{'}
+  - {t: '{', h: '}'}
   - Z
   - X
   - C
@@ -50,8 +50,8 @@ layers:
   - ','
   - .
   - /
-  - {t: ']', h: '['}
-  - {t: ']', h: '['}
+  - {t: '[', h: ']'}
+  - {t: '[', h: ']'}
   - Ctl+F12
   - LALT
   - lower
