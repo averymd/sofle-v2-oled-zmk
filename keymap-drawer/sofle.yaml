@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - '&mt BSPC'
+  - BSPC
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LSHIFT}
@@ -62,7 +62,7 @@ layers:
   - DEL
   - ESC
   lower:
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -74,7 +74,7 @@ layers:
   - F9
   - F10
   - F11
-  - '`'
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -112,7 +112,7 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
