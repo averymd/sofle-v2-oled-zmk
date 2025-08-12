@@ -23,6 +23,6 @@ manifest:
       revision: main
     - name: zmk-helpers
       remote: urob
-      revision: main
+      revision: b1548efd28d2cc64b9506654e6883695c258190f
   self:
     path: config
