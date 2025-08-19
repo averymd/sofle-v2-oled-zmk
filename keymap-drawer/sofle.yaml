@@ -54,8 +54,8 @@ layers:
   - {t: '[', h: 'Sft+['}
   - Ctl+F12
   - {t: ']', h: 'Sft+]'}
-  - SPACE
   - extend
+  - SPACE
   - RET
   - raise
   - TAB
@@ -298,8 +298,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
