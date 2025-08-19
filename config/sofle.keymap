@@ -71,7 +71,7 @@
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping_term_ms = <135>;
+            tapping_term_ms = <175>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -94,7 +94,7 @@
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                 &mo LOWER     AS(Z)         AS(X)         AS(C)         AS(V)         AS(B)         &kp LGUI         &kp LG(LS(S)) AS(N)          AS(M)         AS(COMMA)     AS(DOT)       AS(FSLH)      &kp RBRC
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                                            AS(LBKT)      &kp LC(F12)   AS(RBKT)      &kp SPACE     &mo EXTEND       &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
+                                            AS(LBKT)      &kp LC(F12)   AS(RBKT)      &mo EXTEND    &kp SPACE        &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
             //                            ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
             >;
 
