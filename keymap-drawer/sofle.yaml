@@ -289,10 +289,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL(LSHFT(LEFT))
-  - LCTRL(LSHFT(RIGHT))
-  - LSHFT(HOME)
-  - LSHFT(END)
+  - Ctl+Sft+LEFT
+  - Ctl+Sft+RIGHT
+  - Sft+HOME
+  - Sft+END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
