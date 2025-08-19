@@ -18,6 +18,8 @@
 #define ADJUST 3
 #define EXTEND 4
 
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+
 #define KEYS_L LN0 LN1 LN2 LN3 LN4 LN5 LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5 // Left-hand keys.
 #define KEYS_R RN0 RN1 RN2 RN3 RN4 RN5 RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5 // Right-hand keys.
 #define THUMBS LH4 LH3 LH2 LH1 LH0 RH0 RH1 RH2 RH3 RH4 // Thumb keys.
@@ -42,6 +44,7 @@
             tapping-term-ms = <300>;
             bindings = <&kp>, <&kp>;
             display-name = "Mod-Tap";
+            retro-tap;
         };
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
@@ -65,6 +68,14 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping_term_ms = <135>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     keymap {
@@ -75,15 +86,15 @@
 
             bindings = <
             //╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ 
-                &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                      &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp MINUS
+                AS(GRAVE)     AS(N1)        AS(N2)        AS(N3)        AS(N4)        AS(N5)                                      AS(N6)         AS(N7)        AS(N8)        AS(N9)        AS(N0)        AS(MINUS)
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp BSPC      &kp Q         &kp W         &kp E         &kp R         &mt LBRC T                                  &mt RBRC Y    &kp U         &kp I         &kp O         &kp P         &kp BSLH
+                &kp BSPC      AS(Q)         AS(W)         AS(E)         AS(R)         &mt LBRC AS(T)                              &mt RBRC AS(Y) AS(U)         AS(I)         AS(O)         AS(P)         &kp BSLH
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &kp EQUAL     &kp A         &kp S         &kp D         &kp F         &mt HOME G                                  &mt END H     &kp J         &kp K         &kp L         &kp SEMI      &kp SQT
+                AS(EQUAL)     AS(A)         AS(S)         AS(D)         AS(F)         &mt HOME AS(G)                              AS(H)          AS(J)         AS(K)         AS(L)         AS(SEMI)      AS(SQT)
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                &mo LOWER     &kp Z         &kp X         &kp C         &kp V         &mt LBKT B    &kp LGUI        &kp LG(LS(S)) &mt RBKT N    &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RBRC
+                &mo LOWER     AS(Z)         AS(X)         AS(C)         AS(V)         &mt LBKT AS(B)    &kp LGUI     &kp LG(LS(S)) &mt RBKT AS(N) AS(M)        AS(COMMA)     AS(DOT)       AS(FSLH)     &kp RBRC
             //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                                            &kp LBKT      &kp LC(F12)   &kp RBKT      &kp SPACE     &mo EXTEND     &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
+                                            &kp LBKT      &kp LC(F12)   &kp RBKT      &kp SPACE     &mo EXTEND       &kp RET       &mo RAISE     &kp TAB       &kp DEL       &kp ESC
             //                            ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
             >;
 
