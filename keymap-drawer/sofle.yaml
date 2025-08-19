@@ -26,18 +26,18 @@ layers:
   - P
   - \
   - '='
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LCTRL}
+  - A
+  - S
+  - D
+  - F
   - {t: G, h: HOME}
   - {t: H, h: END}
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: LGUI}
+  - J
+  - K
+  - L
+  - ;
   - ''''
-  - '{'
+  - lower
   - Z
   - X
   - C
@@ -54,7 +54,7 @@ layers:
   - '['
   - Ctl+F12
   - ']'
-  - lower
+  - extend
   - SPACE
   - RET
   - raise
@@ -98,7 +98,7 @@ layers:
   - (
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - {type: held}
   - '='
   - '-'
   - KP PLUS
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -237,10 +237,71 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
   - ''
   - ''
+  - ''
+  extend:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - INS
+  - PSCRN
+  - CMENU
+  - Ctl+F
+  - {t: ▽, type: trans}
+  - PG UP
+  - HOME
+  - UP
+  - END
+  - '0'
+  - F12
+  - {t: ▽, type: trans}
+  - {t: LGUI, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - '&caps_word'
+  - PG DN
+  - LEFT
+  - DOWN
+  - RIGHT
+  - DEL
+  - BSPC
+  - {t: ▽, type: trans}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL(LSHFT(LEFT))
+  - LCTRL(LSHFT(RIGHT))
+  - LSHFT(HOME)
+  - LSHFT(END)
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
