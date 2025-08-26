@@ -286,7 +286,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: ▽, type: trans}
+  - Ctl+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+LEFT
