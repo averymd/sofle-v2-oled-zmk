@@ -58,7 +58,7 @@ layers:
   - SPACE
   - RET
   - raise
-  - TAB
+  - {t: TAB, h: Sft+TAB}
   - DEL
   - ESC
   lower:
@@ -262,7 +262,7 @@ layers:
   - PSCRN
   - CMENU
   - Ctl+F
-  - {t: ▽, type: trans}
+  - {t: TAB, h: Sft+TAB}
   - PG UP
   - HOME
   - UP
