@@ -50,7 +50,7 @@ layers:
   - {t: ',', h: 'Sft+,'}
   - {t: ., h: Sft+.}
   - {t: /, h: Sft+/}
-  - '}'
+  - RSHIFT
   - {t: '[', h: 'Sft+['}
   - Ctl+F12
   - {t: ']', h: 'Sft+]'}
