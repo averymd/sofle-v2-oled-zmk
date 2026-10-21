@@ -37,7 +37,7 @@ layers:
   - {t: L, h: Sft+L}
   - {t: ;, h: Sft+;}
   - {t: '''', h: Sft+'}
-  - lower
+  - LSHIFT
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
@@ -98,7 +98,7 @@ layers:
   - (
   - )
   - '|'
-  - {type: held}
+  - {t: ▽, type: trans}
   - '='
   - '-'
   - KP PLUS
@@ -220,7 +220,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
